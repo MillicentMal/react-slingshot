@@ -3,7 +3,7 @@ image: &image
    docker:
     - image: circleci/node:13.8.0
 jobs:
-  build_step:
+  build_test:
     build: 
     <<: *image
     steps:
